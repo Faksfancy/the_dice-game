@@ -49,7 +49,7 @@ btnRoll.addEventListener('click', function () {
     //.displaying dice
 
     diceEl.classList.remove(`hidden`);
-    diceEl.src = `dice-${dice}.webp`;
+    diceEl.src = `/dice-${dice}.webp`;
     //.checking for if 1 switch to next player
     if (dice !== 1) {
       currentScore += dice;
